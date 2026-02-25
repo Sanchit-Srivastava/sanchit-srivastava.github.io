@@ -57,74 +57,64 @@ cv:
 
     Teaching:
       - company: University of Waterloo
-        position: "Teaching Assistant - PHTS121"
+        position: "Teaching Assistant - PHYS121: Mechanics"
         location: Waterloo, Ontario
         start_date: 2025-09-01
         end_date: 2025-12-31
-        summary: "Teaching tutorials, grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - ECE106"
+        position: "Teaching Assistant - ECE106: Electricity and Magnetism"
         location: Waterloo, Ontario
         start_date: 2025-05-01
         end_date: 2025-08-31
-        summary: "Teaching tutorials, grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS334"
+        position: "Teaching Assistant - PHYS334: Quantum Physics II"
         location: Waterloo, Ontario
         start_date: 2025-01-01
         end_date: 2025-04-30
-        summary: "Grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS364"
+        position: "Teaching Assistant - PHYS364: Mathematical Physics 1"
         location: Waterloo, Ontario
         start_date: 2024-05-01
         end_date: 2024-08-31
-        summary: "Grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS115"
+        position: "Teaching Assistant - PHYS115: Mechanics"
         location: Waterloo, Ontario
         start_date: 2024-05-01
         end_date: 2024-08-31
-        summary: "Teaching tutorials and grading assignments and exams."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS263"
+        position: "Teaching Assistant - PHYS263: Classical Mechanics and Special Relativity"
         location: Waterloo, Ontario
         start_date: 2024-01-01
         end_date: 2024-04-30
-        summary: "Grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS234"
+        position: "Teaching Assistant - PHYS234: Quantum Physics 1"
         location: Waterloo, Ontario
         start_date: 2023-05-01
         end_date: 2023-08-31
-        summary: "Grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS122"
+        position: "Teaching Assistant - PHYS122: Waves, Electricity and Magnetism"
         location: Waterloo, Ontario
         start_date: 2023-01-01
         end_date: 2023-04-30
-        summary: "Teaching tutorials, and grading assignments and exams."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS115"
+        position: "Teaching Assistant - PHYS115: Mechanics"
         location: Waterloo, Ontario
         start_date: 2022-05-01
         end_date: 2022-08-31
-        summary: "Teaching tutorials, grading assignments and exams, and holding office hours."
 
       - company: University of Waterloo
-        position: "Teaching Assistant - PHYS334"
+        position: "Teaching Assistant - PHYS334: Quantum Physics II"
         location: Waterloo, Ontario
         start_date: 2022-01-01
         end_date: 2022-04-30
-        summary: "Grading assignments and exams, and holding office hours."
 
     Relevant Coursework:
       - label: "Ph.D."

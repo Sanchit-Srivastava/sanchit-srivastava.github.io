@@ -118,7 +118,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .date-column {
-  width: 75px;
+  min-width: 130px;
   transform: translateX(-15px) translateY(-5px);
 }
 
