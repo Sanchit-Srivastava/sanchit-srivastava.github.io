@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-04-17'
 papers:
   Yx76Lj4AAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -25,3 +25,7 @@ papers:
     citations: 0
     title: Multipartite entanglement versus nonlocality for two families of qubit states
     year: '2025'
+  Yx76Lj4AAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Contextuality from quantum field vacua using qutrit Unruh-DeWitt detectors
+    year: '2026'
