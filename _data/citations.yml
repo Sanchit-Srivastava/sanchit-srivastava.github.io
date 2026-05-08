@@ -1,18 +1,22 @@
 metadata:
-  last_updated: '2026-04-29'
+  last_updated: '2026-05-08'
 papers:
   Yx76Lj4AAAAJ:2osOgNQ5qMEC:
     citations: 1
     title: Contextuality from the vacuum
     year: '2025'
   Yx76Lj4AAAAJ:9yKSN-GCB0IC:
-    citations: 11
+    citations: 12
     title: Simulating quantum chaos on a quantum computer
     year: '2024'
   Yx76Lj4AAAAJ:IjCSPb-OGe4C:
     citations: 0
     title: Contextuality as a signature of quantum chaos
     year: '2025'
+  Yx76Lj4AAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Operational witnesses of non-classicality via Bell inequalities and contextuality
+    year: '2026'
   Yx76Lj4AAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Non-classical correlations between a quantum probe and complex quantum systems in presence of noise
@@ -22,10 +26,10 @@ papers:
     title: Contextuality and Chaos
     year: '2025'
   Yx76Lj4AAAAJ:qjMakFHDy7sC:
-    citations: 0
+    citations: 1
     title: Multipartite entanglement versus nonlocality for two families of qubit states
     year: '2025'
   Yx76Lj4AAAAJ:zYLM7Y9cAGgC:
-    citations: 0
+    citations: 1
     title: Contextuality from quantum field vacua using qutrit Unruh-DeWitt detectors
     year: '2026'
