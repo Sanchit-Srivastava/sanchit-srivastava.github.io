@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-12'
 papers:
   Yx76Lj4AAAAJ:2osOgNQ5qMEC:
     citations: 2
     title: Contextuality from the vacuum
     year: '2025'
   Yx76Lj4AAAAJ:9yKSN-GCB0IC:
-    citations: 13
+    citations: 14
     title: Simulating quantum chaos on a quantum computer
     year: '2024'
   Yx76Lj4AAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: Operational witnesses of non-classicality via Bell inequalities and contextuality
     year: '2026'
   Yx76Lj4AAAAJ:UeHWp8X0CEIC:
-    citations: 0
+    citations: 1
     title: Non-classical correlations between a quantum probe and complex quantum systems in presence of noise
     year: '2024'
   Yx76Lj4AAAAJ:d1gkVwhDpl0C:
