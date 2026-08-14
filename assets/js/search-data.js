@@ -376,16 +376,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-i-successfully-defended-my-ph-d-thesis-operational-witnesses-of-non-classicality-via-bell-inequalities-and-contextuality",
+          title: 'I successfully defended my Ph.D. thesis, Operational witnesses of non-classicality via Bell inequalities...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -447,7 +439,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%73%61%6E%63%68%69%74.%73%72%69%76%61%73%74%61%76%61@%75%77%61%74%65%72%6C%6F%6F.%63%61", "_blank");
+          window.open("mailto:%63%6F%6E%74%61%63%74@%73%61%6E%63%68%69%74%73%72%69%76%61%73%74%61%76%61.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-scholar',
