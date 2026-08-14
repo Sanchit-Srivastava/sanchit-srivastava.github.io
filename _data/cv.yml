@@ -1,10 +1,10 @@
 cv:
   name: Sanchit Srivastava
-  label: Ph.D. Student
-  email: sanchit.srivastava@uwaterloo.ca
+  label: Research Assistant
+  email: contact@sanchitsrivastava.com
   location: Waterloo, Ontario, Canada
   image: ""
-  summary: Ph.D. student at the Institute for Quantum Computing, University of Waterloo. Research focused on the intersection of quantum information and quantum foundations.
+  summary: Research Assistant in Physics and Astronomy at the University of Waterloo. Research focused on the intersection of quantum information and quantum foundations.
 
   sections:
     Education:
@@ -14,10 +14,12 @@ cv:
         area: Quantum Information
         studyType: Ph.D.
         start_date: 2021
-        end_date: Present
+        end_date: 2026-03-26
         highlights:
           - "Institute for Quantum Computing (IQC), Physics and Astronomy"
           - "Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann"
+          - "Thesis: [Operational witnesses of non-classicality via Bell inequalities and contextuality](https://uwspace.uwaterloo.ca/items/b2ae2854-5dd1-4df4-b1e7-ef848fe1761b)"
+          - "Defended March 26, 2026"
 
       - institution: Indian Institute of Science Education and Research (IISER)
         location: India
@@ -27,12 +29,19 @@ cv:
         end_date: 2021
 
     Experience:
+      - company: University of Waterloo
+        position: Research Assistant in Physics and Astronomy
+        location: Waterloo, Ontario, Canada
+        start_date: 2026-03
+        end_date: Present
+        summary: "Research on quantum information and quantum foundations."
+
       - company: Institute for Quantum Computing, University of Waterloo
         position: Ph.D. Student
         location: Waterloo, Ontario, Canada
         start_date: 2021
-        end_date: Present
-        summary: "Research focused on quantum information and quantum foundations. Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann."
+        end_date: 2026-03-26
+        summary: "Researched quantum information and quantum foundations under the co-supervision of Prof. Shohini Ghose and Prof. Robert Mann."
 
       - company: Indian Institute of Science Education and Research
         position: Master's Thesis Student
