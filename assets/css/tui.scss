@@ -326,6 +326,17 @@ blockquote {
   max-width: none;
 }
 
+.prose p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.home-intro #contact + p {
+  text-align: left;
+  hyphens: none;
+}
+
 .prose h2 {
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -359,6 +370,10 @@ blockquote {
   color: var(--indigo);
   font-size: 0.8rem;
   text-decoration: none;
+}
+
+.home-updates .section-heading {
+  border-bottom: 0;
 }
 
 .page-header {
@@ -466,16 +481,11 @@ blockquote {
   margin-bottom: 0;
 }
 
-.news-log {
-  border-top: 1px solid var(--line);
-}
-
 .log-entry {
   display: grid;
   grid-template-columns: 7rem 1fr;
   gap: 1.5rem;
   padding: 1.15rem 0;
-  border-bottom: 1px solid var(--line);
   font-size: 0.84rem;
 }
 
