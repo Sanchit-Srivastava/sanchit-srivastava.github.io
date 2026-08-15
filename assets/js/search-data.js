@@ -11,17 +11,24 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Peer-reviewed articles, preprints, and doctoral thesis.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "CV",
-          description: "",
+          title: "cv",
+          description: "Academic background, research experience, and teaching.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-log",
+          title: "log",
+          description: "Research milestones, publications, talks, and other updates.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "nav-repositories",
           title: "repositories",
