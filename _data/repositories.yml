@@ -8,3 +8,7 @@ github_repos:
     description: Studying contextuality emerging from the vacuum state in quantum field theory.
   - name: Sanchit-Srivastava/Quantum-chaos-signature
     description: Investigating quantum chaos signatures using spectral and statistical methods.
+  - name: Sanchit-Srivastava/beamer-template
+    description: Beamer presentation template.
+  - name: Sanchit-Srivastava/archway
+    description: Personal, reproducible arch system.
