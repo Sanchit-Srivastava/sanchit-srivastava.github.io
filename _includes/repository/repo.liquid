@@ -1,17 +1,15 @@
 {% comment %}
   GitHub-style repository card.
-  Expects: include.repository (hash with name, description, language)
+  Expects: include.repository (hash with name and description)
            OR include.repository (string like "owner/repo" for backward compat)
 {% endcomment %}
 
 {% if include.repository.name %}
   {% assign repo_full = include.repository.name %}
   {% assign repo_desc = include.repository.description %}
-  {% assign repo_lang = include.repository.language %}
 {% else %}
   {% assign repo_full = include.repository %}
   {% assign repo_desc = "" %}
-  {% assign repo_lang = "" %}
 {% endif %}
 
 {% assign repo_parts = repo_full | split: '/' %}
@@ -21,19 +19,10 @@
 <div class="repo-card-wrapper">
   <a href="https://github.com/{{ repo_full }}" class="repo-card" target="_blank" rel="noopener noreferrer">
     <div class="repo-card-header">
-      <i class="fa-brands fa-github repo-card-icon"></i>
       <span class="repo-card-name">{{ repo_name }}</span>
     </div>
     {% if repo_desc != "" %}
       <p class="repo-card-description">{{ repo_desc }}</p>
-    {% endif %}
-    {% if repo_lang != "" %}
-      <div class="repo-card-footer">
-        <span class="repo-card-language">
-          <span class="repo-card-language-dot" data-lang="{{ repo_lang | downcase }}"></span>
-          {{ repo_lang }}
-        </span>
-      </div>
     {% endif %}
   </a>
 </div>
