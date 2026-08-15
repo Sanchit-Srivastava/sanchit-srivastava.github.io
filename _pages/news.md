@@ -1,7 +1,10 @@
 ---
 layout: page
-title: news
+title: log
 permalink: /news/
+description: Research milestones, publications, talks, and other updates.
+nav: true
+nav_order: 3
 ---
 
 {% include news.liquid %}
