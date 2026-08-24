@@ -7,7 +7,9 @@ layout: default
   <header class="page-header cv-header">
     <div>
       <h1>{{ page.title }}</h1>
-      {% if page.description %}<p class="page-description">{{ page.description }}</p>{% endif %}
+      {% if page.description %}
+        <p class="page-description">{{ page.description }}</p>
+      {% endif %}
     </div>
     {% if page.cv_pdf %}
       <a class="text-button" href="{{ page.cv_pdf | relative_url }}">download PDF</a>
@@ -18,11 +20,15 @@ layout: default
     <section class="cv-summary" aria-label="Contact information">
       <div><span>name</span>{{ cv.name }}</div>
       <div><span>role</span>{{ cv.label }}</div>
-      <div><span>email</span><a href="mailto:{{ cv.email }}">{{ cv.email }}</a></div>
+      <div>
+        <span>email</span><a href="mailto:{{ cv.email }}">{{ cv.email }}</a>
+      </div>
       <div><span>location</span>{{ cv.location }}</div>
     </section>
 
-    {% if cv.summary %}<p class="cv-intro">{{ cv.summary }}</p>{% endif %}
+    {% if cv.summary %}
+      <p class="cv-intro">{{ cv.summary }}</p>
+    {% endif %}
 
     {% assign empty_array = '' | split: ',' %}
     {% assign experience = cv.sections.Experience | default: empty_array %}
@@ -60,7 +66,11 @@ layout: default
           {% else %}
             <div class="cv-generic-list">
               {% for entry in entries %}
-                {% if entry.label %}<p><strong>{{ entry.label }}:</strong> {{ entry.details }}</p>{% endif %}
+                {% if entry.label %}
+                  <p>
+                    <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                  </p>
+                {% endif %}
                 {% if entry.bullet %}{{ entry.bullet | markdownify }}{% endif %}
               {% endfor %}
             </div>

@@ -2,12 +2,16 @@
   <div class="site-masthead">
     {% if page.permalink == '/' %}
       <h1 class="site-title">
-        <a class="site-identity" href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.last_name }}</a>
+        <a class="site-identity" href="{{ '/' | relative_url }}">
+          {{- site.first_name }}
+          {{ site.last_name -}}
+        </a>
       </h1>
     {% else %}
       <p class="site-title">
         <a class="site-identity" href="{{ '/' | relative_url }}" aria-label="Sanchit Srivastava, home">
-          {{- site.first_name }} {{ site.last_name -}}
+          {{- site.first_name }}
+          {{ site.last_name -}}
         </a>
       </p>
     {% endif %}
@@ -18,7 +22,13 @@
 
   <div class="header-nav-row">
     <nav class="site-nav" aria-label="Primary navigation">
-      <a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>about</a>
+      <a
+        href="{{ '/' | relative_url }}"
+        {% if page.permalink == '/' %}
+          aria-current="page"
+        {% endif %}
+        >about</a
+      >
       {% assign sorted_pages = site.pages | sort: 'nav_order' %}
       {% for nav_page in sorted_pages %}
         {% if nav_page.nav and nav_page.autogen == null %}
@@ -27,7 +37,14 @@
           {% else %}
             {% assign nav_url = nav_page.url | relative_url %}
           {% endif %}
-          <a href="{{ nav_url }}" {% if page.url == nav_page.url %}aria-current="page"{% endif %}>{{ nav_page.title | downcase }}</a>
+          <a
+            href="{{ nav_url }}"
+            {% if page.url == nav_page.url %}
+              aria-current="page"
+            {% endif %}
+          >
+            {{- nav_page.title | downcase -}}
+          </a>
         {% endif %}
       {% endfor %}
     </nav>
