@@ -9,7 +9,7 @@
   {% assign repo_desc = include.repository.description %}
 {% else %}
   {% assign repo_full = include.repository %}
-  {% assign repo_desc = "" %}
+  {% assign repo_desc = '' %}
 {% endif %}
 
 {% assign repo_parts = repo_full | split: '/' %}
@@ -21,7 +21,7 @@
     <div class="repo-card-header">
       <span class="repo-card-name">{{ repo_name }}</span>
     </div>
-    {% if repo_desc != "" %}
+    {% if repo_desc != '' %}
       <p class="repo-card-description">{{ repo_desc }}</p>
     {% endif %}
   </a>

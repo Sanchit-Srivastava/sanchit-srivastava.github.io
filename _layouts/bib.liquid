@@ -21,9 +21,12 @@
           {% endfor %}
         {% endif %}
         {% if author_is_self %}<strong>{% elsif coauthor_url %}<a href="{{ coauthor_url }}">{% endif %}
-        {{- author.first }} {{ author.last -}}
+        {{- author.first }}
+        {{ author.last -}}
         {% if author_is_self %}</strong>{% elsif coauthor_url %}</a>{% endif %}
-        {%- unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+        {%- unless forloop.last -%}
+          <span aria-hidden="true"> · </span>
+        {%- endunless %}
       {% endfor %}
     </p>
   </header>
@@ -31,19 +34,33 @@
   <p class="publication-meta">
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign theses = 'thesis,mastersthesis,phdthesis' | split: ',' %}
-    {% if entry.type == 'article' and entry.journal %}<em>{{ entry.journal }}</em>{% endif %}
-    {% if proceedings contains entry.type and entry.booktitle %}<em>{{ entry.booktitle }}</em>{% endif %}
-    {% if theses contains entry.type and entry.school %}<em>{{ entry.school }}</em>{% endif %}
+    {% if entry.type == 'article' and entry.journal -%}
+      <em>{{ entry.journal }}</em>
+    {%- endif %}
+    {% if proceedings contains entry.type and entry.booktitle -%}
+      <em>{{ entry.booktitle }}</em>
+    {%- endif %}
+    {% if theses contains entry.type and entry.school -%}
+      <em>{{ entry.school }}</em>
+    {%- endif %}
     {% if entry.volume %} {{ entry.volume }}{% endif %}
     {% if entry.number %}({{ entry.number }}){% endif %}
     {% if entry.pages %}, {{ entry.pages }}{% endif %}
-    {% if entry.year %}<span class="publication-year">{{ entry.year }}</span>{% endif %}
-    {% if entry.note %}<span>{{ entry.note }}</span>{% endif %}
+    {% if entry.year -%}
+      <span class="publication-year">{{ entry.year }}</span>
+    {%- endif %}
+    {% if entry.note -%}
+      <span>{{ entry.note }}</span>
+    {%- endif %}
   </p>
 
   <div class="publication-actions" aria-label="Resources for {{ entry.title | strip_html }}">
-    {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}">doi</a>{% endif %}
-    {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>{% endif %}
+    {% if entry.doi -%}
+      <a href="https://doi.org/{{ entry.doi }}">doi</a>
+    {%- endif %}
+    {% if entry.arxiv -%}
+      <a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>
+    {%- endif %}
     {% if entry.html %}
       {% if entry.html contains '://' %}
         <a href="{{ entry.html }}">article</a>
@@ -58,7 +75,9 @@
         <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">PDF</a>
       {% endif %}
     {% endif %}
-    {% if entry.code %}<a href="{{ entry.code }}">code</a>{% endif %}
+    {% if entry.code -%}
+      <a href="{{ entry.code }}">code</a>
+    {%- endif %}
     {% if entry.slides %}
       {% if entry.slides contains '://' %}
         <a href="{{ entry.slides }}">slides</a>

@@ -18,8 +18,12 @@ layout: default
     {% if site.data.socials.scholar_userid %}
       <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
     {% endif %}
-    {% if site.data.socials.orcid_id %}<a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>{% endif %}
-    {% if site.data.socials.github_username %}<a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>{% endif %}
+    {% if site.data.socials.orcid_id -%}
+      <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
+    {%- endif %}
+    {% if site.data.socials.github_username -%}
+      <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+    {%- endif %}
     <a href="{{ '/assets/pgp/sanchit-srivastava.asc' | relative_url }}">PGP key</a>
   </nav>
 </article>
